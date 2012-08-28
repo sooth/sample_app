@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7'
+gem 'rails'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
 
@@ -24,6 +24,7 @@ group :test do
   gem 'growl'
   gem 'guard-spork'
   gem 'spork'
+  gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required
